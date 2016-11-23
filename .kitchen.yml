@@ -3,6 +3,7 @@ driver:
   name: docker
   use_sudo: false
   privileged: true
+  username: root
 
 provisioner:
   name: salt_solo
